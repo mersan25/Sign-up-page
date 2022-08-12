@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mersan Sufinanal">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+<script src="https://kit.fontawesome.com/167c3594c9.js" crossorigin="anonymous"></script>
+
+  <title>mersan login & sign up page</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <!------Hero section---->
+  <div class="hero">
+    <h1>Sign <span>up</span></h1><br>
+    <h5>welcome to <span>mersan  sufinanal </span> sign up page </h5><br>
+    <form action="" method="GET">
+     <div>
+      <p><label id="firstname" for="firstname">First name:</label></p>
+     <input type="text" placeholder="firstname" autocomplete="off" autofocus required>
+     </div><br>
+     <div>
+       <p><label id="lastname" for="lastname">last name:</label></p>
+       <input type="text" placeholder="lastname" autocomplete="off" autofocus required>
+     </div><br>
+     <div>
+       <p><label id="username" for="username">Username:</label></p>
+       <input type="text" placeholder="username" autocomplete="off" autofocus required>
+     </div><br>
+     <div>
+       <p><label for="password" id="pwd">Password:</label></p>
+       <input type="password" placeholder="create a password" autocomplete="off" maxlength="15" min="6" autofocus required>
+     </div><br>
+     <div>
+       <p><label for="repeat-password" id="re-pwd">Confirm-Password:</label></p>
+       <input type="password" placeholder="Repeat-password" autocomplete="off" maxlength="15" min="6"  autofocus required>
+     </div><br>
+        <p> <label for="Email" id="mail">Email:</label></p>
+   <input type="email" placeholder="enter your email" autocomplete="on" autofocus required>
+   <br>
+  
+      <pre>
+        </pre>
+    <div>
+    <p> <input type="submit" value="sign up" id="btn"><a href="#" target="_blank"></a></p>
+    <p> <input type="reset" value="reset" id="btn"><a href="#" target="_blank"></a></p>
+</div>
+    <p id="terms">by clicking the sign up button you agree to our <a href="#"><span>terms and condition</span></a> and <a href="#"><span>Policy privacy</span></a></p><br> 
+  <!--login section & contact -->
+  <div class="login">
+  <h5>already have an account:<button type="button" id="btn2"><a href="login.html" target="_self">login</button></h5><br>
+     <div class="auth">
+            Or login with
+         </div>
+         <div class="links">
+            <div class="facebook">
+               <i class="fab fa-facebook-square"><span>Facebook</span></i>
+            </div>
+            <div class="google">
+               <i class="fab fa-google-plus-square"><span>Google</span></i>
+            </div>
+         </div>
+  </div>
+  </div>
+  </form>
+  
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

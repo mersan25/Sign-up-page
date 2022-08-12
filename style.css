@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.hero{
+  height:auto;
+  width: 100%;
+  background-image: url(img/Main.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  margin: auto;
+  text-align: center;
+}
+span{
+  text-decoration: mintcream;
+  color: #f9004d;
+  font-weight: bold;
+  font-size: 25px;
+}
+span:hover{
+  color: blue;
+  transition: transform .4s;
+}
+h1{
+  color: whitesmoke;
+  
+}
+h5{
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+p{
+  color: whitesmoke;
+}
+input {
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+  width: 60%;
+  text-transform: capitalize;
+  text-align: center;
+}
+#btn{
+  height: auto;
+  width:  100px;
+  left: -100px;
+  z-index: -1;
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
+}
+#btn:hover{
+  background-color: transparent;
+  border:2px solid #f9004d;
+	cursor: pointer;
+}
+form{
+  border:2px solid white;
+  border-radius: 30px;
+}
+#btn2{
+  color: white;
+  background-color: #f9004d;
+  border:3px solid transparent;
+  text-align: left;
+  bottom: 15px;
+}
+#btn2:hover{
+  background-color: blue;
+  color:blue;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.login{
+  background-color: transparent;
+  background-size: cover;
+}
+#terms{
+  color: white;
+  background-color: transparent;
+  text-transform: capitalize;
+} 
+auth{
+  margin: 35px 0 20px 0;
+  font-size: 19px;
+  color: grey;
+}
+.links{
+  display: flex;
+  cursor: pointer;
+}
+.facebook, .google{
+ height: auto;
+ width:40%;
+  border: 1px solid silver;
+  border-radius: 30px;
+  border-spacing: initial;
+  transition: .4s;
+}
+.facebook:hover{
+  border: 1px solid #4267B2;
+}
+.google:hover{
+  border: 1px solid #dd4b39;
+}
+.facebook i, .facebook span{
+  color: #4267B2;
+}
+.google i, .google span{
+  color: #dd4b39;
+}
+
